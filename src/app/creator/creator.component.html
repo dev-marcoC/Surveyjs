@@ -1,0 +1,7 @@
+<div id="surveyCreator">
+  <survey-creator [model]="surveyCreatorModel"></survey-creator>
+</div>
+
+<div *ngIf="surveyModel !== undefined">
+  <survey [model]="surveyModel"></survey>
+</div>

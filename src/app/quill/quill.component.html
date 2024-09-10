@@ -1,0 +1,10 @@
+<div class="editor-counter">
+  <quill-editor
+    class="q-editor"
+    [readOnly]="model.isReadOnly"
+    [(ngModel)]="content"
+    [styles]="{ height: model.height, width: model.width }"
+  >
+  </quill-editor>
+  <div class="counter"></div>
+</div>
